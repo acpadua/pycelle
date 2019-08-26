@@ -1,0 +1,6 @@
+{
+	"min_sigma_value": 4,
+	"max_sigma_value": 60,
+	"num_sigma_value": 7,
+	"threshold_value": 0.15
+}
