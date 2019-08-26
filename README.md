@@ -6,7 +6,7 @@ Pycelle is code that can be used to detect and quanify round bright regions in a
 Pycelle converts the original image in a grayscale image. Then, gets the histogram of the grayscale image and detects the threshold (n) where the cumulative distribution is 75%.
 To make the background more uniformely dark, the threshold n is applied to the image, converting all the values bellow n to 0 (black) in the grayscale image.
 
-After that, the bright elements in the grayscale image (with threshold applied) are detected using a function that computes Laplacian of Gaussian images. See the [scikit image API](https://scikit-image.org/docs/dev/api skimage.feature.html#skimage.feature.blob_log) for more details. 
+After that, the bright elements in the grayscale image (with threshold applied) are detected using a function that computes Laplacian of Gaussian images. See the [scikit image API](https://scikit-image.org/docs/dev/api skimage.feature.html#skimage.feature.blob_log/) for more details. 
 
 For each image, a csv file is created containing information about the position and radius of the bright elements.
 
@@ -26,7 +26,7 @@ The JSON files contains the parameters used to detect the bright elements.
 
 ### Run 
 
-Pycelle is intended to be used with docker. You can choose one of these two methods do run the container. 
+Pycelle is intended to be used with docker. You can choose one of these two methods to run the container. 
 
 #### Method 1
 
