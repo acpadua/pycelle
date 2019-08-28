@@ -30,7 +30,7 @@ Pycelle is intended to be used with docker. You can choose one of these two meth
 
 #### Method 1
 
-The two methods presented here are equivalent, but the way they are used is different. Method 1 does not build the container locally, whereas in Method 2 the container is build locally.
+The two methods presented here are equivalent, but the way they are used is different. Method 1 does not build the container locally, whereas in Method 2 the container is built locally.
 
 1. Navigate to the directory where you want to work (e.g. $WORK):
 ```
