@@ -44,8 +44,6 @@ $ docker run -v $PWD/test:/data acpadua/pycelle:latest python3 /analyse_images.p
 
 #### Method 2
 
-The advantage of this second method is that you can edit the code if needed.
-
 1. Navigate to the directory where you want to work (e.g. $WORK):
 ```
 $ cd $WORK
@@ -62,7 +60,7 @@ $ cd pycelle
 $ docker build -t pycelle:latest .
 ```
 
-4. To run the code, type on your terminal:
+4. Run the container, typing on your terminal:
 ```
 $ docker run -v $PWD/test:/data pycelle:latest python3 /analyse_images.py
 ```
